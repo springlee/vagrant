@@ -42,15 +42,12 @@
 参考教程
 ===========
 
-博文[快速打造跨平台开发环境 vagrant + virtualbox + box](http://www.54php.cn/default/26.html)
-
-免费视频[imooc 快速打造跨平台开发环境 vagrant + virtualbox + box](http://www.imooc.com/learn/805)
-
-homestead[larval社区](https://d.laravel-china.org/docs/5.5/homestead)
-
-教程1[vagrant 本地添加box 支持带版本号](http://www.cnblogs.com/fengchi/p/6879389.html)
-教程2[Vagrant 三种网络配置详解](http://www.7ysh.com/?p=26)
-教程3[Vagrant 学习笔记](http://blog.csdn.net/54powerman/article/details/50676320)
+*    博文 [快速打造跨平台开发环境 vagrant + virtualbox + box](http://www.54php.cn/default/26.html)
+*    免费视频 [imooc 快速打造跨平台开发环境 vagrant + virtualbox + box](http://www.imooc.com/learn/805)
+*    homestead [laravel社区](https://d.laravel-china.org/docs/5.5/homestead)
+*    教程1 [vagrant 本地添加box 支持带版本号](http://www.cnblogs.com/fengchi/p/6879389.html)
+*    教程2 [Vagrant 三种网络配置详解](http://www.7ysh.com/?p=26)
+*    教程3 [Vagrant 学习笔记](http://blog.csdn.net/54powerman/article/details/50676320)
 
 
 
