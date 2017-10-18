@@ -49,6 +49,8 @@
 homestead[larval社区](https://d.laravel-china.org/docs/5.5/homestead)
 
 教程1[vagrant 本地添加box 支持带版本号](http://www.cnblogs.com/fengchi/p/6879389.html)
+教程2[Vagrant 三种网络配置详解](http://www.7ysh.com/?p=26)
+教程3[Vagrant 学习笔记](http://blog.csdn.net/54powerman/article/details/50676320)
 
 
 
@@ -69,8 +71,78 @@ Vagrant常用命令
 | ------------- |:-------------:|
 | vagrant box list |查看可用的box|
 | vagrant box add  box名字 | 添加box 可以远程或者本地安装 |
+| vagrant box remove  box名字 | 添加box 可以远程或者本地安装 |
 | vagrant init  | 初始化vagrantfile|
-| vagrant halt  | 关闭虚拟机|
+| vagrant destroy  | 关闭虚拟机|
+| vagrant ssh  | 链接虚拟机|
+| vagrant reload  | 重启虚拟机|
+| vagrant suspend  | 挂起虚拟机|
+| vagrant status  |  虚拟机状态|
+| vagrant package  |  虚拟机打包|
+
+
+Vagrant 常用配置
+===============
+[传送门](https://github.com/springlee/vagrant/blob/master/Vagrantfile)
+
+
+基于ubuntu16.04 本地box演示
+=========================
+*   配置的演示
+*   个性化定制自己box
+
+
+
+基于homestead 演示 配置BB系统
+============================
+
+[查看安装的sh](https://github.com/laravel/settler/blob/master/scripts/provision.sh)
+
+
+
+
+
+基于homestead  进阶使用
+===================================
+*   基于Homestead.yaml的配置
+*   简单浏览
+*   安装 php-redis
+*   安装 elk 套件
+*   打包
+*   针对新的box做演示
+*   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
