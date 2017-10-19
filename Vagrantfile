@@ -5,9 +5,9 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu1404"
   config.vm.hostname = "mooc"
   config.vm.network "forwarded_port", guest: 80, host: 8888 
-  config.vm.network "private_network", ip: "192.168.199.101",auto_config: true
-  config.vm.synced_folder "/Users/vincent/code/", "/home/www"
-  #config.vm.synced_folder "/Users/vincent/code/", "/home/www", :nfs => true
+  config.vm.network "private_network", ip: "192.168.199.101"
+  config.vm.synced_folder " /Users/chunchun/htdocs/vagrant/", "/home/vagrant/code/"
+
 
   config.vm.provider "virtualbox" do |vb|
   #   # Display the VirtualBox GUI when booting the machine
