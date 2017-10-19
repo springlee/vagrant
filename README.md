@@ -1,6 +1,6 @@
 海豚开发历史和现状
 ===============
->*   有棵树前期 ubuntu, 重装系统 影响工作
+>*   有棵树前期 ubuntu, 重装系统 影响工作,且软件不方便使用
 >*   windows 配置麻烦,部分软件装不了 非linux
 >*   目前还没有统一的开发环境
 
@@ -25,12 +25,12 @@
 
 什么是虚拟机
 =============
->虚拟机（Virtual Machine）指通过软件模拟的具有完整硬件系统功能的、运行在一个完全隔离环境中的完整计算机系统。 （Parallels Desktop ，Vmware，VirtualBox，Virtual pc）
+>虚拟机（Virtual Machine）指通过软件模拟的具有完整硬件系统功能的、运行在一个完全隔离环境中的完整计算机系统。 （Parallels Desktop ，Vmware，VirtualBox，Virtual pc） ,本次使用VirtualBox
 
 
 什么是box
 =============
->镜像
+>镜像  本次演示(ubuntu16.04 box homestead)  (纯净版 和 非纯净版)
 
 
 本次分享用Vagrant+虚拟机(VirtualBox)+box做什么
@@ -76,6 +76,7 @@ Vagrant常用命令
 | vagrant suspend  | 挂起虚拟机|
 | vagrant status  |  虚拟机状态|
 | vagrant package  |  虚拟机打包|
+|vagrant provision | 刷新配置|
 
 
 Vagrant 常用配置
@@ -90,24 +91,24 @@ Vagrant 常用配置
 
 
 
-基于homestead 演示 配置BB系统
+基于homestead 演示 
 ============================
 
-[查看安装的sh](https://github.com/laravel/settler/blob/master/scripts/provision.sh)
+*   [简单查看安装的sh](https://github.com/laravel/settler/blob/master/scripts/provision.sh)
+*   已BB系统为例子 
 
 
 
 
 
-基于homestead  进阶使用
+基于homestead 进阶使用
 ===================================
 *   基于Homestead.yaml的配置
 *   简单浏览
 *   安装 php-redis
 *   安装 elk 套件
 *   打包
-*   针对新的box做演示
-*   
+*   针对新的box做演示 
 
 
 
