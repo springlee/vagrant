@@ -1,5 +1,5 @@
 # define your sites config directory located on your host machine
-SITES=/home/vagrant/setup/sites/*
+SITES=/home/vagrant/code/sites-available/*
 
 # copy every site file from /home/vagrant/setup/sites/ to your Nginx sites-available folder
 #yes | sudo cp -rf $SITES /etc/nginx/sites-available
@@ -8,7 +8,7 @@ SITES=/home/vagrant/setup/sites/*
 for p in $SITES
 do
     FILE=$(basename $p)
-    sudo ln -s /home/vagrant/setup/sites/$FILE /etc/nginx/sites-enabled/
+    sudo ln -s /home/vagrant/code/sites-available/$FILE /etc/nginx/sites-enabled/
   
 done
 
