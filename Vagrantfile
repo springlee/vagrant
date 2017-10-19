@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu1404"
-  config.vm.hostname = "mooc"
+  config.vm.hostname = "haitun"
   config.vm.network "forwarded_port", guest: 80, host: 8888 
   config.vm.network "private_network", ip: "192.168.199.101"
   config.vm.synced_folder " /Users/chunchun/htdocs/vagrant/", "/home/vagrant/code/"
@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
   #   # Customize the amount of memory on the VM:
       vb.memory = "1024"
       vb.cpus = 2
-      vb.name = "ubuntu_mooc"
+      vb.name = "haitun_vm"
   end
 
 
