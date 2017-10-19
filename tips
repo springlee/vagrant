@@ -19,3 +19,7 @@ groups vagrant
 
 java
 sudo apt-get -y install openjdk-8-jdk
+
+
+
+update-alternatives --set php /usr/bin/php7.1
