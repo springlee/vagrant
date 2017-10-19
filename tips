@@ -1,0 +1,18 @@
+vi /etc/apache2/envvars  
+
+
+# Add Vagrant User To WWW-Data
+
+usermod -a -G www-data vagrant
+id vagrant
+groups vagrant
+
+
+ <Directory "/home/vagrant/code/">
+                Options Indexes FollowSymLinks
+                AllowOverride All
+                Require all granted
+                AllowOverride All
+                Order allow,deny
+                Allow from all
+ </Directory>
