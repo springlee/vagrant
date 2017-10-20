@@ -8,27 +8,23 @@
 
 如何解决
 ===============
->*   vagrant
+>*   vagrant +  VirtualBox +homestead
 >*   docker (目前比较火,需要一定的学习成本,后期等我学完可以再做分享,或者刘哥可以做次分享)
 
 
+Vagrant 
+============
+>Vagrant是一个基于Ruby的工具，用于创建和部署虚拟化开发环境。它 使用Oracle的开源VirtualBox虚拟化系统，使用 Chef创建自动化虚拟环境。
+>它其实是一个虚拟机的管理工具
 
-
-
-什么是Vagrant
+VirtualBox
 ===============
 >VirtualBox 是一款开源虚拟机软件。VirtualBox 是由德国 Innotek 公司开发，由Sun Microsystems公司出品的软件，使用Qt编写，在 Sun 被 Oracle 收购后正式更名成 Oracle VM VirtualBox。Innotek 以 GNU General Public License (GPL) 释出 VirtualBox，并提供二进制版本及 OSE 版本的代码。使用者可以在VirtualBox上安装并且执行Solaris、Windows、DOS、Linux、OS/2 Warp、BSD等系统作为客户端操作系统。现在则由甲骨文公司进行开发，是甲骨文公司xVM虚拟化平台技术的一部份。
 
 >VirtualBox号称是最强的免费虚拟机软件，它不仅具有丰富的特色，而且性能也很优异！它简单易用，可虚拟的系统包括Windows（从Windows 3.1到Windows10、Windows Server 2012，所有的Windows系统都支持）、Mac OS X、Linux、OpenBSD、Solaris、IBM OS2甚至Android等操作系统！使用者可以在VirtualBox上安装并且运行上述的这些操作系统！ 与同性质的VMware及Virtual PC比较下，VirtualBox独到之处包括远端桌面协定（RDP）、iSCSI及USB的支持，VirtualBox在客户端操作系统上已可以支持USB 2.0的硬件装置，不过要安装 VirtualBox Extension Pack。
 
->它其实是一个虚拟机的管理工具
 
-什么是虚拟机
-=============
->虚拟机（Virtual Machine）指通过软件模拟的具有完整硬件系统功能的、运行在一个完全隔离环境中的完整计算机系统。 （Parallels Desktop ，Vmware，VirtualBox，Virtual pc） ,本次使用VirtualBox
-
-
-什么是box
+box
 =============
 >镜像  本次演示(ubuntu16.04 box homestead)  (纯净版 和 非纯净版)
 
