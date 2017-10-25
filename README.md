@@ -66,7 +66,8 @@ Vagrant常用命令
 | vagrant box add  box名字 | 添加box 可以远程或者本地安装 |
 | vagrant box remove  box名字 | 添加box 可以远程或者本地安装 |
 | vagrant init  | 初始化vagrantfile|
-| vagrant destroy  | 关闭虚拟机|
+| vagrant destroy  | 销毁虚拟机|
+| vagrant halt  | 关闭虚拟机|
 | vagrant ssh  | 链接虚拟机|
 | vagrant reload  | 重启虚拟机|
 | vagrant suspend  | 挂起虚拟机|
