@@ -4,11 +4,11 @@
 >*   windows 配置麻烦,部分软件装不了 非linux
 >*   目前还没有统一的开发环境
 
-
+----我的修改 ---
 
 如何解决
 ===============
->*   vagrant +  VirtualBox +homestead
+>*   vagrant +  VirtualBox + homestead
 >*   docker (目前比较火,需要一定的学习成本,后期等我学完可以再做分享,或者刘哥可以做次分享)
 
 
